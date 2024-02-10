@@ -4,6 +4,20 @@
 //Download the ArduinoBlue V2 app an you mobile.
 //Connect to the bluetooth device.
 //Configure three buttons with ID 0 for Red, 1 for Green and 2 for Blue
+
+/*
+Here for this project I'm using an Arduino UNO board, HM10 Bluetooth module and an RGB LED
+Conection: bluetooth module/RGB - Arduino
+    VCC -  5V
+    GND - GND
+    TX  -   8
+    RX  -   7
+For the RGB:
+    RED -   4
+    GREEN - 3
+    BLUE -  2
+Go through circuit_diagram.jpg for circuit diagram.
+*/
 #define R 4
 #define G 3
 #define B 2
